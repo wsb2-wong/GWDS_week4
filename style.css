@@ -1,0 +1,134 @@
+body{
+    background-color: limegreen;
+}
+
+
+header {
+    background-color: hotpink;
+    padding:1px 10px ;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+.container-navigation {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    margin: 0px 0px 1px 9px;
+    border: 3px solid limegreen;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+
+.push{
+    margin-left: auto;
+}
+
+
+/* section one flex grow and shrink */
+
+.section-one {
+    background-color: blueviolet;
+}
+
+.flexgrow-container {
+    display: flex;
+}
+
+.box1 {
+    background-color: skyblue;
+    height: 200px;
+    flex: 1 1 auto;
+
+}
+
+.box2 {
+    background-color: lightgreen;
+    height: 200px;
+    flex: 1 1 auto;
+}
+
+.box3 {
+
+    background-color: darkmagenta;
+    height: 200px;
+    flex: 1 1 auto;
+
+}
+
+/* section 2 center item */
+
+.section-two {
+    background-color: orangered;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* section 3 youtube video */
+
+.section-three {
+    background-color: lightcoral;
+    min-height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe { 
+    padding: 5px;
+    margin: 2px; 
+}
+
+
+/* section 4 embed audio */
+
+.section-four {
+    background-color: darkslateblue;
+    min-height: 500px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+figcaption {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    text-align: center;
+    color: azure;
+}
+
+/* section 5 media items */
+
+.section-five {
+    background-color: goldenrod;
+    min-height: 1400px;
+}
+
+.media-container{
+    display: flex;
+}
+
+.image {
+    width: 40%;
+    margin-top: 5%;
+    padding-left: 5%;
+}
+
+.mediacontent{
+    width:50%;
+    margin-top: 5%;
+}
